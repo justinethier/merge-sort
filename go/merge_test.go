@@ -21,10 +21,7 @@ func TestMerge(t *testing.T) {
     shuffled[i], shuffled[j] = shuffled[j], shuffled[i]
   }
 
-  mergeSort(shuffled)
-
-  //fmt.Println(arr)
-  //fmt.Println(shuffled)
+  shuffled = mergeSort(shuffled)
 
   if !reflect.DeepEqual(arr, shuffled) {
     t.Error("Array is not sorted", shuffled)
