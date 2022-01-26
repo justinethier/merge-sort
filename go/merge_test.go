@@ -1,7 +1,7 @@
 package merge
 
 import (
-  "fmt"
+  //"fmt"
   "math/rand"
   "reflect"
   "testing"
@@ -23,8 +23,8 @@ func TestMerge(t *testing.T) {
 
   mergeSort(shuffled)
 
-  fmt.Println(arr)
-  fmt.Println(shuffled)
+  //fmt.Println(arr)
+  //fmt.Println(shuffled)
 
   if !reflect.DeepEqual(arr, shuffled) {
     t.Error("Array is not sorted", shuffled)
