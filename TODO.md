@@ -1,0 +1,9 @@
+- Other languages
+  - Java
+  - JavaScript
+  - Scheme
+  - Rust?
+  - Nim?
+  - Zig?
+  - Others?
+- k-way merge?
