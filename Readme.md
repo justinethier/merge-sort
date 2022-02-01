@@ -1,4 +1,4 @@
-Various implementation of the merge sort.
+Various implementations of the [merge sort](https://en.wikipedia.org/wiki/Merge_sort).
 
                   |7 3 4 1 6 8 2 5|
                  /                 \
